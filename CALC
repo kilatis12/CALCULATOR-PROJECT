@@ -1,0 +1,42 @@
+//============================================================================
+// Name        : CALCULATOR12.cpp
+// Author      : 
+// Version     :
+// Copyright   : DALMACIO ROGER
+// Description : CALCULATOR PROJECT
+//============================================================================
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int num1,num2;
+
+int add;
+int subtract;
+int product;
+float quotient;
+
+int main() {
+	cout << "Input first number: " <<endl;
+	cin >> num1 ;
+	cout <<"Input second number : " <<endl;
+	cin >> num2;
+
+	add = num1 + num2;
+	subtract = num1 - num2 ;
+	product = num1 * num2 ;
+	quotient = num1 / num2 ;
+
+	cout << "Output : \n\n" ;
+	cout << " SUM = " << add << endl;
+	cout << " Difference = " << subtract << endl;
+	cout << " Product = " << product << endl;
+	cout << " QOUTIENT = " << quotient << endl;
+
+	getch();
+
+
+	return 0;
+}
